@@ -1,0 +1,97 @@
+/* Landing Page Styling */
+@import url('https://googleapis.com');
+
+
+:root {
+    --secondary-color: #3882F6;
+    --dark-background: #1F2937;
+    --primary-text-color: #F9FAF8;
+    --secondary-text-color: #E5E7EB;
+}
+
+* {
+    font-family: 'Roboto','Montserrat',sans-serif;
+
+}
+
+body {
+    margin: 0px;
+}
+
+
+/* Header */
+.header {
+    display: flex;
+    align-items: center;
+    padding: 10px 60px;
+    gap: 16px;
+    background-color: var(--dark-background);
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin-right: auto;
+}
+
+.link {
+    text-decoration: none;
+    font-size: 15px;
+    color: var(--secondary-text-color);
+
+}
+
+/* Containter One */
+.container-one {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 60px;
+    background-color: var(--dark-background);
+}
+
+.text_box {
+    color: var(--primary-text-color);
+    flex: 1;
+}
+
+.button {
+    background-color: var(--secondary-color);
+    color: var(--primary-text-color);
+    font-size: 15px;
+    padding: 6px 20px;
+    border: none;
+    border-radius: 8px;
+ }
+
+
+.img_box {
+    display: flex;
+    flex: 1;
+    background-color: #E5E7EB;
+    align-self: stretch;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+
+    
+}
+
+.container-two {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.photo-card {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.info {
+    border: #3882F6;
+    
+}
