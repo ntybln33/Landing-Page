@@ -173,3 +173,10 @@ body {
     color: var(--primary-text-color);
     font-size: 15px;
 }
+
+.footer {
+    background-color: var(--dark-background);
+    color: var(--primary-text-color);
+    text-align: center;
+    padding: 20px;
+}
