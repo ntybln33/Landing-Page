@@ -60,7 +60,7 @@ body {
     background-color: var(--secondary-color);
     color: var(--primary-text-color);
     font-size: 15px;
-    padding: 6px 20px;
+    padding: 6px 30px;
     border: none;
     border-radius: 8px;
  }
@@ -80,7 +80,7 @@ body {
 
 .container-two {
     display: flex;
-    background-color: var(--primary-text-color);
+    background-color: white;
     gap: 20px;
     padding-top: 20px;
     padding-left: 60px;
@@ -90,7 +90,6 @@ body {
     text-align: center;
 
 }
-
 
 
 .row-container {
@@ -115,7 +114,53 @@ body {
     border-radius: 15px;
 }
 
-.info {
-    border: #3882F6;
-    
+.info p {
+    color: grey;    
+}
+
+
+.container-three {
+    background-color: var(--secondary-text-color);
+    padding: 20px 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.quote-container {
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    margin: 80px 30px;
+}
+
+.quote-container p {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+    margin: 0;
+}
+
+.quote-container .author {
+    align-self: flex-end;
+    font-weight: 900;
+}
+
+.container-four {
+    margin: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    background-color: #3882F6;
+    padding: 10px 80px;
+    border-radius: 30px;
+    color: var(--primary-text-color);
+    gap: 50px;
 }
